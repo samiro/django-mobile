@@ -2,9 +2,7 @@
 django-mobile
 =============
 
-.. image:: https://travis-ci.org/gregmuellegger/django-mobile.png
-   :alt: Build Status
-   :target: https://travis-ci.org/gregmuellegger/django-mobile
+*Update:* ``ipad`` is mobile.
 
 .. _introduction:
 
