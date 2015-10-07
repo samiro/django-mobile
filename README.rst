@@ -29,8 +29,7 @@ Installation
 before you try to use ``django_mobile`` make sure that the sessions framework
 is enabled and working.
 
-1. Install ``django_mobile`` with your favourite python tool, e.g. with
-   ``easy_install django_mobile`` or ``pip install django_mobile``.
+1. Install ``django_mobile`` (ipad is mobiel) ``pip install git+https://github.com/samiro/django-mobile.git``.
 2. Add ``django_mobile`` to your ``INSTALLED_APPS`` setting in the
    ``settings.py``.
 3. Add ``django_mobile.middleware.MobileDetectionMiddleware`` to your
