@@ -57,8 +57,7 @@ class MobileDetectionMiddleware(object):
             user_agent = request.META['HTTP_USER_AGENT']
 
             # Test common mobile values.
-            if self.user_agents_test_search_regex.search(user_agent) and \
-                not self.user_agents_exception_search_regex.search(user_agent):
+            if self.user_agents_test_search_regex.search(user_agent):
                 is_mobile = True
             else:
                 # Nokia like test for WAP browsers.
